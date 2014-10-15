@@ -1,3 +1,21 @@
+# BIOMD0000000265: Conradie2010_RPControl_CellCycle
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000265.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000265.git@20140916`
+
+
+# Model Notes
 
 
 This model is from the article:  
@@ -37,4 +55,5 @@ The rate constants presented in the paper have units [per tenth of an hour]
 and have been changed here to [per hour] (e.g. k16 = 0.25 not 0.025); for
 further confirmation of the correctness of this change, see the original model
 (Novak, J Theor Biol 2004 230:563).
+
 
